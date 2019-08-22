@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.kibi
-  inspection: 'DeclaresStyle:position: absolute'
+  inspection: DeclaresStyle:position:relative
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.kibi
   inspection: 'DeclaresStyle:top: 50px'
