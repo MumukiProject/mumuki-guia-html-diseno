@@ -1,5 +1,5 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:.yobi
+  binding: css:.mebi
   inspection: 'DeclaresStyle:position: fixed'
