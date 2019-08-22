@@ -1,0 +1,1 @@
+¡No se movió! :frowning: Eso es porque el elemento debe estar _posicionado_ para que esas propiedades lo afecten. ¿Y cómo hacemos eso :scream:? ¡Sigamos!
