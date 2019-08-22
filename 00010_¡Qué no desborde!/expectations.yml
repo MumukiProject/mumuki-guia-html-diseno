@@ -21,4 +21,13 @@ expectations:
   inspection: 'DeclaresStyle:padding: 20px'
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.logo
-  inspection: 'DeclaresStyle:margin: 50px'
+  inspection: 'Not:DeclaresStyle:margin: 50px'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:header
+  inspection: 'DeclaresStyle:width: 50%'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:header
+  inspection: 'DeclaresStyle:height: 50px'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:header
+  inspection: 'DeclaresStyle:overflow: scroll'
