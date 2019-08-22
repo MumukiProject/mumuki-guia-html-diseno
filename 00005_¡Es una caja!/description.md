@@ -6,4 +6,4 @@
 
 Esto quiere decir que cuando usábamos `height` y `width` para modificar el alto y el ancho de un elemento, en realidad estábamos modificando el tamaño de su **contenido**. Así que cuidado a la hora de calcular el tamaño :straight_ruler: de un elemento ya que tenemos que considerar también las medidas de sus márgenes y bordes. Veamos...
 
-> Si un elemento tiene establecido un ancho de 320px y 30px de margen exterior. ¿Cuánto será el ancho final de la caja?
+> Si un elemento tiene establecido un ancho de `320px` y `30px` de margen exterior. ¿Cuánto será el ancho final de la caja?
