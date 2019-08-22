@@ -1,4 +1,4 @@
-¡Ya sabés bastante de CSS! :tada: Pero… ¿sabías que todo es una caja? :hushed: Bueno, o al menos en eso nos basamos al momento de diseñar: en el _modelo de cajas_. Es por esto que a cada elemento HTML se lo considera una caja :package: compuesta por un contenido, un margen interior, un borde y un margen exterior.
+¡Ya sabés bastante de CSS! :raised_hands: Pero… ¿sabías que todo es una caja? :hushed: Bueno, o al menos en eso nos basamos al momento de diseñar: en el _modelo de cajas_. Es por esto que a cada elemento HTML se lo considera una caja :package: compuesta por un contenido, un margen interior, un borde y un margen exterior.
 
 <div style="display:center;">
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-html-diseno/master/assets/modelo_cajas_1566497793652.png" alt="modelo_cajas_1566497793652.png" width="auto" height="auto">
