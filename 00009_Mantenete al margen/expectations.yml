@@ -11,13 +11,13 @@ expectations:
   inspection: DeclaresStyle:border-radius:2em
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.logo
-  inspection: 'DeclaresStyle:padding: 20px'
+  inspection: DeclaresStyle:padding:20px
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.slogan
-  inspection: 'DeclaresStyle:margin: 50px'
+  inspection: DeclaresStyle:margin:50px
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.logo
-  inspection: 'Not:DeclaresStyle:margin: 50px'
+  inspection: Not:DeclaresStyle:margin:50px
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.logo
   inspection: DeclaresStyle:border:5px
