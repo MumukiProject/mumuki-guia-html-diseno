@@ -21,4 +21,10 @@ expectations:
   inspection: Not:DeclaresStyle:border-color:rgb(26, 148, 163)
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.logo
-  inspection: DeclaresStyle:border:5px solid rgb(26, 148, 163)
+  inspection: DeclaresStyle:border:5px
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.logo
+  inspection: DeclaresStyle:border:solid
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.logo
+  inspection: DeclaresStyle:border:rgb(26, 148, 163)
