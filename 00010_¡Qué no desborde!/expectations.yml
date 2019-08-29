@@ -2,32 +2,38 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.slogan
-  inspection: 'DeclaresStyle:font-family: "Lato", "Helvetica Neue", Helvetica, Arial,
-    sans-serif'
+  inspection: DeclaresStyle:font-family:"Lato", "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.slogan
-  inspection: 'DeclaresStyle:color: #0B465D'
+  inspection: DeclaresStyle:color:rgb(11, 70, 93)
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.slogan
-  inspection: 'DeclaresStyle:margin: 50px'
+  inspection: DeclaresStyle:margin:50px
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.logo
-  inspection: 'DeclaresStyle:border-radius: 2em'
+  inspection: DeclaresStyle:border-radius:2em
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.logo
-  inspection: 'DeclaresStyle:border: 5px solid #1A94A3'
+  inspection: DeclaresStyle:padding:20px
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.logo
-  inspection: 'DeclaresStyle:padding: 20px'
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:.logo
-  inspection: 'Not:DeclaresStyle:margin: 50px'
+  inspection: Not:DeclaresStyle:margin:50px
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:header
-  inspection: 'DeclaresStyle:width: 50%'
+  inspection: DeclaresStyle:width:50%
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:header
-  inspection: 'DeclaresStyle:height: 50px'
+  inspection: DeclaresStyle:height:50px
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:header
-  inspection: 'DeclaresStyle:overflow: scroll'
+  inspection: DeclaresStyle:overflow:scroll
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.logo
+  inspection: DeclaresStyle:border:5px
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.logo
+  inspection: DeclaresStyle:border:solid
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.logo
+  inspection: DeclaresStyle:border:rgb(26, 148, 163)
