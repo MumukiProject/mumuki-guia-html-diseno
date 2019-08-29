@@ -1,1 +1,1 @@
-¡Felicitaciones! :clap: Ya sabés cómo diseñar el layout de una página web gracias a los conceptos y propiedades que aprendistes. 
+¡Felicitaciones! :clap: Ya sabés cómo diseñar el layout de una página web gracias a los conceptos y propiedades que aprendiste sobre HTML y CSS. 
