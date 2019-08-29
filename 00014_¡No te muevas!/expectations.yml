@@ -2,4 +2,4 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.mebi
-  inspection: 'DeclaresStyle:position: fixed'
+  inspection: DeclaresStyle:position:fixed
