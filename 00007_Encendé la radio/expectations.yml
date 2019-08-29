@@ -12,9 +12,6 @@ expectations:
   inspection: DeclaresStyle:border-radius:2em
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.logo
-  inspection: DeclaresStyle:border:5px solid border-style:solid
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:.logo
   inspection: Not:DeclaresStyle:border-width:5px
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.logo
@@ -22,3 +19,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.logo
   inspection: Not:DeclaresStyle:border-color:rgb(26, 148, 163)
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.logo
+  inspection: DeclaresStyle:border:5pxsolidrgb(26, 148, 163)
