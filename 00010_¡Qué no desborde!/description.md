@@ -1,6 +1,6 @@
 ¿Qué hacemos si queremos mostrar un contenido mucho más grande que las medidas que le pusimos a su caja? ¡Descubrámoslo! 
 
-> Copiá el siguiente código en el editor y apretá _Enviar_.
+> Copiá el siguiente código en el archivo con extensión `css` y apretá _Enviar_.
 >
 ```css
 header {
