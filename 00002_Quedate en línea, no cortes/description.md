@@ -4,6 +4,6 @@ _"Entonces si un elemento nació para ser un agrupador en bloque o en línea, ¿
 > 
 ```css
 .en-linea {
- display: inline;
- }
+  display: inline;
+}
 ```
