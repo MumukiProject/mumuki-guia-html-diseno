@@ -4,6 +4,6 @@ Hagamos un truco de magia. Fijate que en el código HTML está el logo de Mumuki
 >
 ```css
 .logo {
- display: none;
+  display: none;
 }
 ```
