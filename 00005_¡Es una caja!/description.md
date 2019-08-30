@@ -4,6 +4,6 @@
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-html-diseno/master/assets/modelo_cajas_1566497793652.png" alt="modelo_cajas_1566497793652.png" width="auto" height="auto">
 </div>
 
-Esto quiere decir que cuando usábamos `height` y `width` para modificar el alto y el ancho de un elemento, en realidad estábamos modificando el tamaño de su **contenido**. Así que cuidado a la hora de calcular el tamaño :straight_ruler: de un elemento ya que tenemos que considerar también las medidas de sus márgenes y bordes. Veamos...
+Esto quiere decir que cuando usábamos `height` y `width` para modificar el alto y el ancho de un elemento, en realidad estábamos modificando el tamaño de su **contenido**. Así que cuidado a la hora de calcular el tamaño de un elemento :straight_ruler: ya que tenemos que considerar también las medidas de sus márgenes y bordes. Veamos...
 
 > Si un elemento tiene establecido un ancho de `320px` y `30px` de margen exterior. ¿Cuánto será el ancho final de la caja?
