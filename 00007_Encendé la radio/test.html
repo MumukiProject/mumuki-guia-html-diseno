@@ -1,6 +1,10 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("El logo tiene un border radius de 2em", () => {
   document.getElementsByClassName('logo')[0].should.have.style("border-radius", "2em");
+});
+
+it("El logo tiene el border definido en una sola línea", () => {
+  document.getElementsByClassName('logo')[0].should.have.style("border", "5px solid rgb(26, 148, 163)");
 });/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
